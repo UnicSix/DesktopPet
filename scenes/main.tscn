@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bsmqsgvwu8m8c"]
+
+[ext_resource type="PackedScene" uid="uid://bl3mrnhh5n0p4" path="res://scenes/capy.tscn" id="1_g3yog"]
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_vd4ep"]
+
+[node name="main" type="Node"]
+script = ExtResource("1_vd4ep")
+
+[node name="Capy" parent="." instance=ExtResource("1_g3yog")]
+position = Vector2(441, 195)
